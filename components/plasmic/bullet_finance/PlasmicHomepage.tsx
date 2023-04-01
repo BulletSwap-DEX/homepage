@@ -984,7 +984,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           )}
                         >
                           {
-                            "Launch of Bulletswap Finance DEX on the Core Blockchain"
+                            "Launch of Bulletswap Finance DEX on the ZKSync Era Chain"
                           }
                         </li>
                         <li
@@ -1429,7 +1429,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     sty.h5__mkAjC
                   )}
                 >
-                  {"© Bullet.Finance 2023"}
+                  {"© Bullets.Finance 2023"}
                 </h5>
               </div>
             ) : null}
@@ -1551,7 +1551,7 @@ export const PlasmicHomepage = Object.assign(
 
     // Page metadata
     pageMetadata: {
-      title: "Bullet.Finance | Breaking boundaries",
+      title: "Bullets.Finance | Breaking boundaries",
       description:
         "Bullet Finance is a blockchain project that aims to revolutionize the financial industry by introducing a decentralized and secure platform for investment management",
       ogImageSrc:
