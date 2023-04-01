@@ -1,0 +1,290 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "7nJ7UcFmq9UzB6eXfC5z4a",
+      "projectApiToken": "uZp069FLSLNVA2dpWnqC3BUaj3flvtNBNXt6e1b67rm4Uh6lGHgYJ65FCBXlOFTB5KDW7RmmOxIAzgHYCg",
+      "projectName": "plasmic-nav",
+      "version": "0.11.0",
+      "cssFilePath": "plasmic/plasmic_nav/plasmic_plasmic_nav.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "jGx9tiKJoex",
+          "name": "NavigationBar",
+          "componentImportPath": "@plasmicpkgs/plasmic-nav"
+        }
+      ],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "pMdR3HE58fchjU5MKnv9KV",
+      "projectApiToken": "TKVqxJRKjFVN6mYcRlB5KyRlV4fSowSUolxnTn6Q5hmS1MvfbDiegLX4OYTOZ6OyoxtYNYSIprqyZ4q5A",
+      "projectName": "BulletFinance",
+      "version": "latest",
+      "cssFilePath": "plasmic/bullet_finance/plasmic_bullet_finance.module.css",
+      "components": [
+        {
+          "id": "qXbhUiT421l8",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "pMdR3HE58fchjU5MKnv9KV",
+          "renderModuleFilePath": "plasmic/bullet_finance/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/bullet_finance/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "HGSty6rZ08u",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "pMdR3HE58fchjU5MKnv9KV",
+          "renderModuleFilePath": "plasmic/bullet_finance/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/bullet_finance/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        }
+      ],
+      "icons": [
+        {
+          "id": "R0LO7nqIljI",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/bullet_finance/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "nkTOxUhFR0H",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/bullet_finance/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "Fq_64pdZJCQ",
+          "name": "Icon14Icon",
+          "moduleFilePath": "plasmic/bullet_finance/icons/PlasmicIcon__Icon14.tsx"
+        },
+        {
+          "id": "nrMP-Yv4iN",
+          "name": "DiscordFillSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/bullet_finance/icons/PlasmicIcon__DiscordFillSvgrepoComsvg.tsx"
+        },
+        {
+          "id": "diaaMw_r8a",
+          "name": "TelegramSvgrepoCom4SvgIcon",
+          "moduleFilePath": "plasmic/bullet_finance/icons/PlasmicIcon__TelegramSvgrepoCom4Svg.tsx"
+        },
+        {
+          "id": "nNAd4RaSMU",
+          "name": "InstagramFSvgrepoCom2SvgIcon",
+          "moduleFilePath": "plasmic/bullet_finance/icons/PlasmicIcon__InstagramFSvgrepoCom2Svg.tsx"
+        },
+        {
+          "id": "jIjDdkY-Vy",
+          "name": "FacebookRoundSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/bullet_finance/icons/PlasmicIcon__FacebookRoundSvgrepoComsvg.tsx"
+        },
+        {
+          "id": "8nH40H-PCX",
+          "name": "TwitterRoundSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/bullet_finance/icons/PlasmicIcon__TwitterRoundSvgrepoComsvg.tsx"
+        },
+        {
+          "id": "yat9hQpL9k",
+          "name": "BlockchainSvgrepoCom1SvgIcon",
+          "moduleFilePath": "plasmic/bullet_finance/icons/PlasmicIcon__BlockchainSvgrepoCom1Svg.tsx"
+        },
+        {
+          "id": "s73VuNOXiV",
+          "name": "WalletSvgrepoCom3SvgIcon",
+          "moduleFilePath": "plasmic/bullet_finance/icons/PlasmicIcon__WalletSvgrepoCom3Svg.tsx"
+        },
+        {
+          "id": "VfmWhDTTRh",
+          "name": "SecuritySvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/bullet_finance/icons/PlasmicIcon__SecuritySvgrepoComsvg.tsx"
+        },
+        {
+          "id": "QOrV05AskU",
+          "name": "MenuSvgrepoCom5SvgIcon",
+          "moduleFilePath": "plasmic/bullet_finance/icons/PlasmicIcon__MenuSvgrepoCom5Svg.tsx"
+        },
+        {
+          "id": "kLhJAqmQQt",
+          "name": "DocumentTextSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/bullet_finance/icons/PlasmicIcon__DocumentTextSvgrepoComsvg.tsx"
+        },
+        {
+          "id": "K2rSbJId9j",
+          "name": "ArrowUpRightMdSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/bullet_finance/icons/PlasmicIcon__ArrowUpRightMdSvgrepoComsvg.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "WpdQmHIRP",
+          "name": "logo-bullet.png",
+          "filePath": "../public/plasmic/bullet_finance/images/logoBulletpng.png"
+        },
+        {
+          "id": "iQtCr27nX",
+          "name": "bullet.png",
+          "filePath": "../public/plasmic/bullet_finance/images/bulletpng.png"
+        },
+        {
+          "id": "niWm9iEhf",
+          "name": "bulletbg.png",
+          "filePath": "../public/plasmic/bullet_finance/images/bulletbgpng.png"
+        },
+        {
+          "id": "dX_tOsT2c",
+          "name": "bulletbg.png 2",
+          "filePath": "../public/plasmic/bullet_finance/images/bulletbgpng2.png"
+        },
+        {
+          "id": "iRa2VUuht",
+          "name": "bullet-swap.png",
+          "filePath": "../public/plasmic/bullet_finance/images/bulletSwappng.png"
+        },
+        {
+          "id": "fv4gDsLJs",
+          "name": "bulletpool.png",
+          "filePath": "../public/plasmic/bullet_finance/images/bulletpoolpng.png"
+        },
+        {
+          "id": "kuBUhiV0Q",
+          "name": "bulletbridge.png",
+          "filePath": "../public/plasmic/bullet_finance/images/bulletbridgepng.png"
+        },
+        {
+          "id": "UvvTyFZIU",
+          "name": "bulletmining.png",
+          "filePath": "../public/plasmic/bullet_finance/images/bulletminingpng.png"
+        },
+        {
+          "id": "MnBHgsuHQ",
+          "name": "mockup-bullet.png",
+          "filePath": "../public/plasmic/bullet_finance/images/mockupBulletpng.png"
+        },
+        {
+          "id": "wwmVfwZfc",
+          "name": "Group 6.png",
+          "filePath": "../public/plasmic/bullet_finance/images/group6Png.png"
+        },
+        {
+          "id": "QvnzGf-T_",
+          "name": "splashglass.png",
+          "filePath": "../public/plasmic/bullet_finance/images/splashglasspng.png"
+        },
+        {
+          "id": "jVzoZryOi",
+          "name": "launchpad.png",
+          "filePath": "../public/plasmic/bullet_finance/images/launchpadpng.png"
+        },
+        {
+          "id": "dnjalEcsj",
+          "name": "nft-robot.png",
+          "filePath": "../public/plasmic/bullet_finance/images/nftRobotpng.png"
+        },
+        {
+          "id": "o6IUDfu3o",
+          "name": "banner-cta.png",
+          "filePath": "../public/plasmic/bullet_finance/images/bannerCtapng.png"
+        },
+        {
+          "id": "AOXdeRsVm",
+          "name": "mockup-bulletswap.png",
+          "filePath": "../public/plasmic/bullet_finance/images/mockupBulletswappng.png"
+        },
+        {
+          "id": "rq_XI-aGs",
+          "name": "banner-cta.png 2",
+          "filePath": "../public/plasmic/bullet_finance/images/bannerCtapng2.png"
+        },
+        {
+          "id": "0r63dlSDc",
+          "name": "pp-sosmed-1.png",
+          "filePath": "../public/plasmic/bullet_finance/images/ppSosmed1Png.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "qiRLKNJMd1",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "sOlBtqp9Pq",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ]
+    },
+    {
+      "projectId": "58GpZjZCWTaJ8AUhpCwt2K",
+      "projectApiToken": "DIkcfhBwjMCJSjcxfBkMuy4NImyytq5EWylxVcpS9t9EpdhnPQuBgBGxmk00AB1itMFa1KXTxOKnrjN2PN9nlA",
+      "projectName": "react-awesome-reveal",
+      "version": "3.11.0",
+      "cssFilePath": "plasmic/react_awesome_reveal/plasmic_react_awesome_reveal.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "R6s1FdhksG",
+          "name": "Reveal",
+          "componentImportPath": "@plasmicpkgs/react-awesome-reveal"
+        }
+      ],
+      "jsBundleThemes": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "eJBsN3-Xa89-f",
+        "name": "Screen",
+        "projectId": "pMdR3HE58fchjU5MKnv9KV",
+        "contextFilePath": "plasmic/bullet_finance/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.249",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.249/dist/plasmic.schema.json"
+}
