@@ -233,6 +233,101 @@
           "id": "0r63dlSDc",
           "name": "pp-sosmed-1.png",
           "filePath": "../public/plasmic/bullet_finance/images/ppSosmed1Png.png"
+        },
+        {
+          "id": "8LNnjqIDd",
+          "name": "20230409_135546.jpg",
+          "filePath": "../public/plasmic/bullet_finance/images/_20230409135546Jpg.jpg"
+        },
+        {
+          "id": "Ufz9hBLQA",
+          "name": "20230407_235825 1.png",
+          "filePath": "../public/plasmic/bullet_finance/images/_202304072358251Png.png"
+        },
+        {
+          "id": "BAySkVZ8L",
+          "name": "20230408_100116 1.png",
+          "filePath": "../public/plasmic/bullet_finance/images/_202304081001161Png.png"
+        },
+        {
+          "id": "m6y0k1Ue3",
+          "name": "20230408_100620 1.png",
+          "filePath": "../public/plasmic/bullet_finance/images/_202304081006201Png.png"
+        },
+        {
+          "id": "Fc3iQAk8i",
+          "name": "20230408_100931 1.png",
+          "filePath": "../public/plasmic/bullet_finance/images/_202304081009311Png.png"
+        },
+        {
+          "id": "cyLBH62ti",
+          "name": "20230408_140957 1.png",
+          "filePath": "../public/plasmic/bullet_finance/images/_202304081409571Png.png"
+        },
+        {
+          "id": "Lw1qsdpoc",
+          "name": "20230408_215704 1.png",
+          "filePath": "../public/plasmic/bullet_finance/images/_202304082157041Png.png"
+        },
+        {
+          "id": "9Vlw_eZCn",
+          "name": "20230408_224552 1.png",
+          "filePath": "../public/plasmic/bullet_finance/images/_202304082245521Png.png"
+        },
+        {
+          "id": "5k6IjdEXz",
+          "name": "20230409_014741 1.png",
+          "filePath": "../public/plasmic/bullet_finance/images/_202304090147411Png.png"
+        },
+        {
+          "id": "FcRwsVPc3",
+          "name": "20230409_015008 1.png",
+          "filePath": "../public/plasmic/bullet_finance/images/_202304090150081Png.png"
+        },
+        {
+          "id": "8XODoHSkC",
+          "name": "20230409_015407 1.png",
+          "filePath": "../public/plasmic/bullet_finance/images/_202304090154071Png.png"
+        },
+        {
+          "id": "AOd9GeFcn",
+          "name": "20230409_113120 1.png",
+          "filePath": "../public/plasmic/bullet_finance/images/_202304091131201Png.png"
+        },
+        {
+          "id": "aJzKjhBSU",
+          "name": "20230409_113302 1.png",
+          "filePath": "../public/plasmic/bullet_finance/images/_202304091133021Png.png"
+        },
+        {
+          "id": "Vdz88qP2X",
+          "name": "20230409_113851 1.png",
+          "filePath": "../public/plasmic/bullet_finance/images/_202304091138511Png.png"
+        },
+        {
+          "id": "sYktJNUYj",
+          "name": "20230409_113939 1.png",
+          "filePath": "../public/plasmic/bullet_finance/images/_202304091139391Png.png"
+        },
+        {
+          "id": "nWSFXdhyg",
+          "name": "20230409_114131 1.png",
+          "filePath": "../public/plasmic/bullet_finance/images/_202304091141311Png.png"
+        },
+        {
+          "id": "fubPAcyJH",
+          "name": "20230409_132311 1.png",
+          "filePath": "../public/plasmic/bullet_finance/images/_202304091323111Png.png"
+        },
+        {
+          "id": "Du9AhGLBj",
+          "name": "20230409_135546 1.png",
+          "filePath": "../public/plasmic/bullet_finance/images/_202304091355461Png.png"
+        },
+        {
+          "id": "KRd-72-uF",
+          "name": "20230409_184114 1.png",
+          "filePath": "../public/plasmic/bullet_finance/images/_202304091841141Png.png"
         }
       ],
       "indirect": false,
@@ -285,6 +380,6 @@
   "nextjsConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.249",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.249/dist/plasmic.schema.json"
+  "cliVersion": "0.1.255",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.255/dist/plasmic.schema.json"
 }

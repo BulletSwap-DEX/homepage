@@ -76,6 +76,7 @@ export type PlasmicHomepage__OverridesType = {
   product?: p.Flex<"section">;
   trailler?: p.Flex<"section">;
   roadmap?: p.Flex<"section">;
+  roadmap2?: p.Flex<"section">;
   community?: p.Flex<"section">;
   community2?: p.Flex<"section">;
 };
@@ -182,6 +183,7 @@ function PlasmicHomepage__RenderFunc(props: {
             projectcss.root_reset,
             projectcss.plasmic_default_styles,
             projectcss.plasmic_mixins,
+            projectcss.plasmic_tokens,
             sty.root
           )}
         >
@@ -984,7 +986,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           )}
                         >
                           {
-                            "Launch of Bulletswap Finance DEX on the ZKSync Era Chain"
+                            "Launch of Bulletswap Finance DEX on the Core Blockchain"
                           }
                         </li>
                         <li
@@ -1260,6 +1262,420 @@ function PlasmicHomepage__RenderFunc(props: {
           </p.Stack>
           <p.Stack
             as={"section"}
+            data-plasmic-name={"roadmap2"}
+            data-plasmic-override={overrides.roadmap2}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.roadmap2)}
+          >
+            <Reveal
+              className={classNames("__wab_instance", sty.reveal__mqSoi)}
+              direction={"up" as const}
+              effect={"slide" as const}
+              triggerOnce={true}
+            >
+              <h1
+                className={classNames(
+                  projectcss.all,
+                  projectcss.h1,
+                  projectcss.__wab_text,
+                  sty.h1__gv7Vb
+                )}
+              >
+                {"Our Community Partner"}
+              </h1>
+            </Reveal>
+            <Reveal
+              className={classNames("__wab_instance", sty.reveal___08RLv)}
+              direction={"right" as const}
+              effect={"slide" as const}
+              triggerOnce={true}
+            >
+              {true ? (
+                <div className={classNames(projectcss.all, sty.freeBox__bDuSu)}>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__cayc3)}
+                  >
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.freeBox__r9Op)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__x9LWq)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"none" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"124px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/bullet_finance/images/_202304072358251Png.png",
+                          fullWidth: 1089,
+                          fullHeight: 1089,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </p.Stack>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.freeBox__r7JxV)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__qAg3X)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"none" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"124px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/bullet_finance/images/_202304081001161Png.png",
+                          fullWidth: 640,
+                          fullHeight: 640,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </p.Stack>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.freeBox__rrT1J)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__otpOu)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"none" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"124px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/bullet_finance/images/_202304081009311Png.png",
+                          fullWidth: 400,
+                          fullHeight: 400,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </p.Stack>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.freeBox__nokkb)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__mYr4C)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"none" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"124px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/bullet_finance/images/_202304082157041Png.png",
+                          fullWidth: 2272,
+                          fullHeight: 1925,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </p.Stack>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.freeBox__kyP7U)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__hqSw)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"none" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"124px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/bullet_finance/images/_202304082245521Png.png",
+                          fullWidth: 640,
+                          fullHeight: 640,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </p.Stack>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.freeBox__cR5Dp)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__ozN8K)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"none" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"124px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/bullet_finance/images/_202304090147411Png.png",
+                          fullWidth: 1967,
+                          fullHeight: 756,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </p.Stack>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.freeBox__kf3A)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__xcErw)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"none" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"124px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/bullet_finance/images/_202304090150081Png.png",
+                          fullWidth: 250,
+                          fullHeight: 250,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </p.Stack>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.freeBox__kd7Km)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__vrBiH)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"none" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"124px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/bullet_finance/images/_202304090154071Png.png",
+                          fullWidth: 640,
+                          fullHeight: 640,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </p.Stack>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(
+                        projectcss.all,
+                        sty.freeBox___5E2XF
+                      )}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img___2KfYs)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"none" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"124px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/bullet_finance/images/_202304091131201Png.png",
+                          fullWidth: 640,
+                          fullHeight: 640,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </p.Stack>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.freeBox__c9Kxk)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__uC9No)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"none" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"124px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/bullet_finance/images/_202304091133021Png.png",
+                          fullWidth: 640,
+                          fullHeight: 640,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </p.Stack>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.freeBox__zp8P)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__zuOgE)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"none" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"124px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/bullet_finance/images/_202304091138511Png.png",
+                          fullWidth: 1080,
+                          fullHeight: 1080,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </p.Stack>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(
+                        projectcss.all,
+                        sty.freeBox___6ZnUb
+                      )}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__nVjQj)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"none" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"124px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/bullet_finance/images/_202304091139391Png.png",
+                          fullWidth: 1080,
+                          fullHeight: 1080,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </p.Stack>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.freeBox__otWlo)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__tnxQ7)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"none" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"124px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/bullet_finance/images/_202304091141311Png.png",
+                          fullWidth: 640,
+                          fullHeight: 640,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </p.Stack>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.freeBox__cVkGy)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__e8UdF)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"none" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"124px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/bullet_finance/images/_202304091323111Png.png",
+                          fullWidth: 640,
+                          fullHeight: 640,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </p.Stack>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.freeBox__l82EY)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__n2Rc3)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"none" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"124px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/bullet_finance/images/_202304091355461Png.png",
+                          fullWidth: 750,
+                          fullHeight: 750,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </p.Stack>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.freeBox__x6Ma)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__fiOHn)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"none" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"124px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/bullet_finance/images/_202304091841141Png.png",
+                          fullWidth: 640,
+                          fullHeight: 640,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </p.Stack>
+                  </div>
+                </div>
+              ) : null}
+            </Reveal>
+          </p.Stack>
+          <p.Stack
+            as={"section"}
             data-plasmic-name={"community"}
             data-plasmic-override={overrides.community}
             hasGap={true}
@@ -1429,7 +1845,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     sty.h5__mkAjC
                   )}
                 >
-                  {"© Bullets.Finance 2023"}
+                  {"© Bullet.Finance 2023"}
                 </h5>
               </div>
             ) : null}
@@ -1449,6 +1865,7 @@ const PlasmicDescendants = {
     "product",
     "trailler",
     "roadmap",
+    "roadmap2",
     "community",
     "community2"
   ],
@@ -1458,6 +1875,7 @@ const PlasmicDescendants = {
   product: ["product"],
   trailler: ["trailler"],
   roadmap: ["roadmap"],
+  roadmap2: ["roadmap2"],
   community: ["community"],
   community2: ["community2"]
 } as const;
@@ -1472,6 +1890,7 @@ type NodeDefaultElementType = {
   product: "section";
   trailler: "section";
   roadmap: "section";
+  roadmap2: "section";
   community: "section";
   community2: "section";
 };
@@ -1542,6 +1961,7 @@ export const PlasmicHomepage = Object.assign(
     product: makeNodeComponent("product"),
     trailler: makeNodeComponent("trailler"),
     roadmap: makeNodeComponent("roadmap"),
+    roadmap2: makeNodeComponent("roadmap2"),
     community: makeNodeComponent("community"),
     community2: makeNodeComponent("community2"),
 
@@ -1551,7 +1971,7 @@ export const PlasmicHomepage = Object.assign(
 
     // Page metadata
     pageMetadata: {
-      title: "Bullets.Finance | Breaking boundaries",
+      title: "Bullet.Finance | Breaking boundaries",
       description:
         "Bullet Finance is a blockchain project that aims to revolutionize the financial industry by introducing a decentralized and secure platform for investment management",
       ogImageSrc:
