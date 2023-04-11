@@ -231,7 +231,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 closeButton={
                   <p.PlasmicImg
                     alt={""}
-                    className={classNames(sty.img__pNit)}
+                    className={classNames(sty.img__wSrcs)}
                     displayHeight={"auto" as const}
                     displayMaxHeight={"none" as const}
                     displayMaxWidth={"none" as const}
@@ -335,7 +335,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 openButton={
                   <p.PlasmicImg
                     alt={""}
-                    className={classNames(sty.img__j0VSt)}
+                    className={classNames(sty.img__dZtpL)}
                     displayHeight={"auto" as const}
                     displayMaxHeight={"none" as const}
                     displayMaxWidth={"none" as const}
@@ -491,6 +491,126 @@ function PlasmicHomepage__RenderFunc(props: {
                 </div>
               </div>
             ) : null}
+            <Reveal
+              className={classNames("__wab_instance", sty.reveal___5W8Du)}
+              direction={"up" as const}
+              effect={"fade" as const}
+              triggerOnce={true}
+            >
+              <p.Stack
+                as={"div"}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.freeBox__vwsG)}
+              >
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img__a2CI7)}
+                  displayHeight={"32px" as const}
+                  displayMaxHeight={"none" as const}
+                  displayMaxWidth={"100%" as const}
+                  displayMinHeight={"0" as const}
+                  displayMinWidth={"0" as const}
+                  displayWidth={"auto" as const}
+                  loading={"lazy" as const}
+                  src={{
+                    src: "/plasmic/bullet_finance/images/zkSync1Png.png",
+                    fullWidth: 1016,
+                    fullHeight: 200,
+                    aspectRatio: undefined
+                  }}
+                />
+
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img__lAxOo)}
+                  displayHeight={"24px" as const}
+                  displayMaxHeight={"none" as const}
+                  displayMaxWidth={"100%" as const}
+                  displayMinHeight={"0" as const}
+                  displayMinWidth={"0" as const}
+                  displayWidth={"auto" as const}
+                  loading={"lazy" as const}
+                  src={{
+                    src: "/plasmic/bullet_finance/images/zksyncEra1Png.png",
+                    fullWidth: 776,
+                    fullHeight: 200,
+                    aspectRatio: undefined
+                  }}
+                />
+
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img___7Bw6B)}
+                  displayHeight={"32px" as const}
+                  displayMaxHeight={"none" as const}
+                  displayMaxWidth={"100%" as const}
+                  displayMinHeight={"0" as const}
+                  displayMinWidth={"0" as const}
+                  displayWidth={"auto" as const}
+                  loading={"lazy" as const}
+                  src={{
+                    src: "/plasmic/bullet_finance/images/zealyLogoWhite1Png.png",
+                    fullWidth: 872,
+                    fullHeight: 200,
+                    aspectRatio: undefined
+                  }}
+                />
+
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img__pGpDd)}
+                  displayHeight={"32px" as const}
+                  displayMaxHeight={"none" as const}
+                  displayMaxWidth={"100%" as const}
+                  displayMinHeight={"0" as const}
+                  displayMinWidth={"0" as const}
+                  displayWidth={"auto" as const}
+                  loading={"lazy" as const}
+                  src={{
+                    src: "/plasmic/bullet_finance/images/zkGame1Png.png",
+                    fullWidth: 734,
+                    fullHeight: 200,
+                    aspectRatio: undefined
+                  }}
+                />
+
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img__po70)}
+                  displayHeight={"32px" as const}
+                  displayMaxHeight={"none" as const}
+                  displayMaxWidth={"100%" as const}
+                  displayMinHeight={"0" as const}
+                  displayMinWidth={"0" as const}
+                  displayWidth={"auto" as const}
+                  loading={"lazy" as const}
+                  src={{
+                    src: "/plasmic/bullet_finance/images/group3Png.png",
+                    fullWidth: 528,
+                    fullHeight: 200,
+                    aspectRatio: undefined
+                  }}
+                />
+
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img___0Haql)}
+                  displayHeight={"32px" as const}
+                  displayMaxHeight={"none" as const}
+                  displayMaxWidth={"100%" as const}
+                  displayMinHeight={"0" as const}
+                  displayMinWidth={"0" as const}
+                  displayWidth={"auto" as const}
+                  loading={"lazy" as const}
+                  src={{
+                    src: "/plasmic/bullet_finance/images/group2Png.png",
+                    fullWidth: 516,
+                    fullHeight: 200,
+                    aspectRatio: undefined
+                  }}
+                />
+              </p.Stack>
+            </Reveal>
           </p.Stack>
           <p.Stack
             as={"section"}
@@ -567,7 +687,7 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.h3__prxq3
                           )}
                         >
-                          {"Bullet Swap"}
+                          {"Bullets Swap"}
                         </h3>
                         <div
                           className={classNames(
@@ -619,7 +739,7 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.h3___94A3B
                           )}
                         >
-                          {"Bullet Pool"}
+                          {"Bullets Pool"}
                         </h3>
                         <div
                           className={classNames(
@@ -671,7 +791,7 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.h3___57ZbL
                           )}
                         >
-                          {"Bullet Bridge"}
+                          {"Bullets Bridge"}
                         </h3>
                         <div
                           className={classNames(
@@ -740,7 +860,7 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.h3___1RXkf
                           )}
                         >
-                          {"Bullet Farming"}
+                          {"Bullets Farming"}
                         </h3>
                         <div
                           className={classNames(
@@ -1321,29 +1441,6 @@ function PlasmicHomepage__RenderFunc(props: {
                     <p.Stack
                       as={"div"}
                       hasGap={true}
-                      className={classNames(projectcss.all, sty.freeBox__r7JxV)}
-                    >
-                      <p.PlasmicImg
-                        alt={""}
-                        className={classNames(sty.img__qAg3X)}
-                        displayHeight={"auto" as const}
-                        displayMaxHeight={"none" as const}
-                        displayMaxWidth={"none" as const}
-                        displayMinHeight={"0" as const}
-                        displayMinWidth={"0" as const}
-                        displayWidth={"124px" as const}
-                        loading={"lazy" as const}
-                        src={{
-                          src: "/plasmic/bullet_finance/images/_202304081001161Png.png",
-                          fullWidth: 640,
-                          fullHeight: 640,
-                          aspectRatio: undefined
-                        }}
-                      />
-                    </p.Stack>
-                    <p.Stack
-                      as={"div"}
-                      hasGap={true}
                       className={classNames(projectcss.all, sty.freeBox__rrT1J)}
                     >
                       <p.PlasmicImg
@@ -1472,9 +1569,9 @@ function PlasmicHomepage__RenderFunc(props: {
                         displayWidth={"124px" as const}
                         loading={"lazy" as const}
                         src={{
-                          src: "/plasmic/bullet_finance/images/_202304090154071Png.png",
-                          fullWidth: 640,
-                          fullHeight: 640,
+                          src: "/plasmic/bullet_finance/images/_20230410204348Png.png",
+                          fullWidth: 3264,
+                          fullHeight: 3264,
                           aspectRatio: undefined
                         }}
                       />
@@ -1498,9 +1595,9 @@ function PlasmicHomepage__RenderFunc(props: {
                         displayWidth={"124px" as const}
                         loading={"lazy" as const}
                         src={{
-                          src: "/plasmic/bullet_finance/images/_202304091131201Png.png",
-                          fullWidth: 640,
-                          fullHeight: 640,
+                          src: "/plasmic/bullet_finance/images/_20230410204317Png.png",
+                          fullWidth: 3264,
+                          fullHeight: 3264,
                           aspectRatio: undefined
                         }}
                       />
@@ -1616,9 +1713,9 @@ function PlasmicHomepage__RenderFunc(props: {
                         displayWidth={"124px" as const}
                         loading={"lazy" as const}
                         src={{
-                          src: "/plasmic/bullet_finance/images/_202304091323111Png.png",
-                          fullWidth: 640,
-                          fullHeight: 640,
+                          src: "/plasmic/bullet_finance/images/_20230410203916Png.png",
+                          fullWidth: 3264,
+                          fullHeight: 3264,
                           aspectRatio: undefined
                         }}
                       />
@@ -1665,6 +1762,199 @@ function PlasmicHomepage__RenderFunc(props: {
                           src: "/plasmic/bullet_finance/images/_202304091841141Png.png",
                           fullWidth: 640,
                           fullHeight: 640,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </p.Stack>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.freeBox__qQ4Ex)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__vqnjv)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"none" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"124px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/bullet_finance/images/redpandaWhite1Png.png",
+                          fullWidth: 714,
+                          fullHeight: 574,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </p.Stack>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.freeBox__z6Pb)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__s2Ipk)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"none" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"124px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/bullet_finance/images/doraemonLogOpng.png",
+                          fullWidth: 1563,
+                          fullHeight: 1563,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </p.Stack>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(
+                        projectcss.all,
+                        sty.freeBox___07Tzc
+                      )}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img___8GOw8)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"none" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"124px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/bullet_finance/images/img20221002140544919Png.png",
+                          fullWidth: 1280,
+                          fullHeight: 1280,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </p.Stack>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.freeBox__oWdix)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__aesoG)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"none" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"124px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/bullet_finance/images/a2MVenturesLogoDone01Png.png",
+                          fullWidth: 3334,
+                          fullHeight: 3334,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </p.Stack>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.freeBox__mCr6R)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__kYwev)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"none" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"124px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/bullet_finance/images/_20230408100443Png.png",
+                          fullWidth: 3264,
+                          fullHeight: 3264,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </p.Stack>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.freeBox__gZz9G)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__gGcYv)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"none" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"124px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/bullet_finance/images/_202304102037051Png.png",
+                          fullWidth: 400,
+                          fullHeight: 400,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </p.Stack>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(
+                        projectcss.all,
+                        sty.freeBox___2Bxnn
+                      )}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__izAly)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"none" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"124px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/bullet_finance/images/_20230410203739Png.png",
+                          fullWidth: 3264,
+                          fullHeight: 3264,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </p.Stack>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(
+                        projectcss.all,
+                        sty.freeBox___0De1A
+                      )}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__o82E2)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"none" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"124px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/bullet_finance/images/_1602503252829Png.png",
+                          fullWidth: 1080,
+                          fullHeight: 1080,
                           aspectRatio: undefined
                         }}
                       />
@@ -1793,7 +2083,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   sty.link__hsrZ
                 )}
                 component={Link}
-                href={"https://t.me/Bulletswap_Official" as const}
+                href={"https://t.me/Bulletswap_Announcement" as const}
                 platform={"nextjs"}
                 target={"_blank" as const}
               >
@@ -1836,18 +2126,68 @@ function PlasmicHomepage__RenderFunc(props: {
               </p.PlasmicLink>
             </p.Stack>
             {true ? (
-              <div className={classNames(projectcss.all, sty.freeBox___7Ol3M)}>
+              <p.Stack
+                as={"div"}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.freeBox___7Ol3M)}
+              >
+                {true ? (
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox___9XxLf)}
+                  >
+                    <h5
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h5,
+                        projectcss.__wab_text,
+                        sty.h5__mkAjC
+                      )}
+                    >
+                      {"Build on"}
+                    </h5>
+                    <p.PlasmicLink
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        sty.link__kwYV
+                      )}
+                      component={Link}
+                      href={"https://zksync.io/" as const}
+                      platform={"nextjs"}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__oxMt4)}
+                        displayHeight={"24px" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"auto" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/bullet_finance/images/zkSync1Png.png",
+                          fullWidth: 1016,
+                          fullHeight: 200,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </p.PlasmicLink>
+                  </p.Stack>
+                ) : null}
                 <h5
                   className={classNames(
                     projectcss.all,
                     projectcss.h5,
                     projectcss.__wab_text,
-                    sty.h5__mkAjC
+                    sty.h5__zZVa
                   )}
                 >
                   {"© Bullet.Finance 2023"}
                 </h5>
-              </div>
+              </p.Stack>
             ) : null}
           </p.Stack>
         </div>

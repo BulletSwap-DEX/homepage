@@ -328,6 +328,101 @@
           "id": "KRd-72-uF",
           "name": "20230409_184114 1.png",
           "filePath": "../public/plasmic/bullet_finance/images/_202304091841141Png.png"
+        },
+        {
+          "id": "p4g-FTuec",
+          "name": "Zksync Era 1.png",
+          "filePath": "../public/plasmic/bullet_finance/images/zksyncEra1Png.png"
+        },
+        {
+          "id": "fJoXPCYAN",
+          "name": "ZkSync 1.png",
+          "filePath": "../public/plasmic/bullet_finance/images/zkSync1Png.png"
+        },
+        {
+          "id": "99xoIcgmf",
+          "name": "Zealy_Logo_White 1.png",
+          "filePath": "../public/plasmic/bullet_finance/images/zealyLogoWhite1Png.png"
+        },
+        {
+          "id": "Y1XA-xCgD",
+          "name": "ZkGame 1.png",
+          "filePath": "../public/plasmic/bullet_finance/images/zkGame1Png.png"
+        },
+        {
+          "id": "nPv3L5TvS",
+          "name": "ZNS Domain 1.png",
+          "filePath": "../public/plasmic/bullet_finance/images/znsDomain1Png.png"
+        },
+        {
+          "id": "YaQ6ADG_r",
+          "name": "Zks Miner_ 1.png",
+          "filePath": "../public/plasmic/bullet_finance/images/zksMiner1Png.png"
+        },
+        {
+          "id": "O5iDMKnOG",
+          "name": "REDPANDA_WHITE 1.png",
+          "filePath": "../public/plasmic/bullet_finance/images/redpandaWhite1Png.png"
+        },
+        {
+          "id": "AmZ_x3j76",
+          "name": "DORAEMON LOGO.png",
+          "filePath": "../public/plasmic/bullet_finance/images/doraemonLogOpng.png"
+        },
+        {
+          "id": "9w_nS51ow",
+          "name": "IMG_20221002_140544_919.png",
+          "filePath": "../public/plasmic/bullet_finance/images/img20221002140544919Png.png"
+        },
+        {
+          "id": "sDYpfZh3y",
+          "name": "A2M Ventures Logo done-01.png",
+          "filePath": "../public/plasmic/bullet_finance/images/a2MVenturesLogoDone01Png.png"
+        },
+        {
+          "id": "dCUVA1qUX",
+          "name": "20230408_100443.png",
+          "filePath": "../public/plasmic/bullet_finance/images/_20230408100443Png.png"
+        },
+        {
+          "id": "e6698lvNC",
+          "name": "20230410_203705 1.png",
+          "filePath": "../public/plasmic/bullet_finance/images/_202304102037051Png.png"
+        },
+        {
+          "id": "nZ_QzLoOR",
+          "name": "20230410_203739.png",
+          "filePath": "../public/plasmic/bullet_finance/images/_20230410203739Png.png"
+        },
+        {
+          "id": "7r79au26M",
+          "name": "20230410_203916.png",
+          "filePath": "../public/plasmic/bullet_finance/images/_20230410203916Png.png"
+        },
+        {
+          "id": "ygL4Y87EN",
+          "name": "20230410_204317.png",
+          "filePath": "../public/plasmic/bullet_finance/images/_20230410204317Png.png"
+        },
+        {
+          "id": "KjOYZUyvU",
+          "name": "20230410_204348.png",
+          "filePath": "../public/plasmic/bullet_finance/images/_20230410204348Png.png"
+        },
+        {
+          "id": "t_zKRytAa",
+          "name": "1602503252829.png",
+          "filePath": "../public/plasmic/bullet_finance/images/_1602503252829Png.png"
+        },
+        {
+          "id": "ijVMlB4Y8",
+          "name": "Group 3.png",
+          "filePath": "../public/plasmic/bullet_finance/images/group3Png.png"
+        },
+        {
+          "id": "zmMzbrc87",
+          "name": "Group 2.png",
+          "filePath": "../public/plasmic/bullet_finance/images/group2Png.png"
         }
       ],
       "indirect": false,
@@ -380,6 +475,6 @@
   "nextjsConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.255",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.255/dist/plasmic.schema.json"
+  "cliVersion": "0.1.256",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.256/dist/plasmic.schema.json"
 }
